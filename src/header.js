@@ -7,7 +7,6 @@ import Link from '@mui/material/Link';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import {useNavigate} from "react-router-dom";
-import Button from '@mui/material/Button';
 
 const lightColor = 'rgba(255, 255, 255, 0.7)';
 
