@@ -1,6 +1,6 @@
 # React-getGithub_restAPI
 
-------  Below are the brief description about this application ------------
+------  Below are the brief description about this application ------
 ## Functionality
 A React application that can get Github user information by inputing the user Github URL at first page
 
