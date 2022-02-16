@@ -1,5 +1,6 @@
 {
   "name": "dcard",
+  "homepage": "https://pang-lee.github.io/React-getGithub_restAPI/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
