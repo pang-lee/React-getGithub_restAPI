@@ -1,9 +1,31 @@
-# Getting Started with Create React App
+# Brief description about this application
+## Functionality
+A React application that can get Github user information by inputing the user Github URL at first page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## how the application be build
+In the folder src/
+we using the material UI as our frontend template and we organize several component which is:
+header.js - which is the websit header
+content.js - which is the center part of website content
+paperbase.js - which is the websit UI outline (It's import that the whole website outline is at this file - including the header and content component)
+repo.js - which is the each github repository page information
 
+----------------------------------------------------------------
+
+Inside App.js we define three react route to different page
+I didn't use the Redux instead a global variable
+I defined a function call getGithub within serveral function:
+getting user data from API with limit 10 record per request
+
+----------------------------------------------------------------
+
+If we want to get more data while we scroll down
+check out the content.js
+we define a function call fetchMoreData and It'll get more data after scroll down and with simple detection about the record of the repository
+
+----------------------------------------------------------------
 ## Available Scripts
-
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 In the project directory, you can run:
 
 ### `npm start`
