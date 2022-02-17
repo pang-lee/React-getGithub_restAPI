@@ -9,7 +9,7 @@ let user_data = {}
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={window.location.pathname || ''}>
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/users/:user/repos" element={<About />}/>
