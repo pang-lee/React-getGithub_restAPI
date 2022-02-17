@@ -11,7 +11,6 @@ import axios from 'axios'
 let hasMore = true
 
 export default function Content(props) {
-  console.log('content.js', props)
 
   const [, updateState] = React.useState();
   const forceUpdate = React.useCallback(() => updateState({}), []);
